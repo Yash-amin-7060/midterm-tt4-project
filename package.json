@@ -1,0 +1,20 @@
+{
+  "name": "midterm-project-2150",
+  "version": "1.0.0",
+  "description": "##### **Project Structure** ``` /midterm-project ├── /api                  # Backend (Node.js) │   ├── index.js          # API implementation  ├── /app                  # Frontend (HTML, SCSS, JS, Webpack) │   ├── assets            # Assest folder │   │     └── images      # images folder │   │     └── fonts       # fonts folder │   ├── index.html        # Main HTML file │   ├── index.js          # │   ├── index.scss        # │   ├── global.js         # │   ├── global.scss       # │   ├── package.json      # │   └── webpack.config.js # Webpack configuration ├── Dockerfile            # Docker configuration for the app ├── default.conf          # Nginx configuration └── README.md ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yash-amin-7060/midterm-tt4-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yash-amin-7060/midterm-tt4-project/issues"
+  },
+  "homepage": "https://github.com/Yash-amin-7060/midterm-tt4-project#readme"
+}
