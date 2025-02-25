@@ -38,8 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
         img.style.maxWidth = '100%'; 
         img.style.maxHeight = '200px';
         img.style.objectFit = 'cover'
-
-        const cardBody = document.createElement('div');
+        addToCart.addEventListener("click", () => {
+            window.location.href = "add-products.html";
+        });        const cardBody = document.createElement('div');
         cardBody.classList.add('card-body');
 
         const title = document.createElement('h4');
@@ -55,6 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
         addToCart.classList.add('btn-success');
         addToCart.classList.add('float-end');
         addToCart.textContent = "Add to cart";
+        addToCart.classList.add('openaddpage');
 
         cardBody.appendChild(title);
         cardBody.appendChild(description);
